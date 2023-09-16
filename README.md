@@ -1,2 +1,2 @@
-# python-gui
+# Tkinter Python GUI
 Tkinter Tutorial FCC
