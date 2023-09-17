@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-#Creating  a label Widget
+#Creating  a label Widget for
 myLabel1 = Label(root, text = "Hello World!")
 myLabel2 = Label(root, text = "My name is Soumyadeep")
 myLabel3 = Label(root, text = "               ")
