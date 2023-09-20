@@ -9,6 +9,6 @@ def myClick():
 # myButton = Button(root, text="Click Me!",padx=10,pady=50)
 myButton = Button(root, text="Click Me!",command=myClick,fg="yellow",bg="black")# foreground and backgroundcolor
 
-myButton.pack()
+myButton.pack() 
 
 root.mainloop()
