@@ -2,6 +2,7 @@ from tkinter import*
 
 root = Tk()
 #entry Widget
+# root.title("New")
 e = Entry(root, width=50, bg="#ddf79c", fg='#eb3d4e', borderwidth=5)
 e.pack()
 e.insert(0,'Enter you name here!!')
