@@ -16,7 +16,7 @@ def button_click(number):
 def button_clear():
     e.delete(0,END)
 
-<<<<<<< HEAD
+
 def button_sum():
 	first_number = e.get()
 	global f_num
@@ -78,7 +78,7 @@ def button_equal():
     e.delete(0,END)
     e.insert(0,f_num+int(second_number))
     
->>>>>>> e7171605dec820329e0512073e9de4c96a8d7871
+
 
 button0 = Button(root, text="0",padx=40,pady=20, command=lambda: button_click(0))
 button1 = Button(root, text="1",padx=40,pady=20, command=lambda: button_click(1))
@@ -90,11 +90,7 @@ button6 = Button(root, text="6",padx=40,pady=20, command=lambda: button_click(6)
 button7 = Button(root, text="7",padx=40,pady=20, command=lambda: button_click(7))
 button8 = Button(root, text="8",padx=40,pady=20, command=lambda: button_click(8))
 button9 = Button(root, text="9",padx=40,pady=20, command=lambda: button_click(9))
-<<<<<<< HEAD
-buttonSum = Button(root, text="+", padx=39, pady=20,command=button_sum)
-=======
 buttonSum = Button(root, text="+", padx=39, pady=20,command=button_add)
->>>>>>> e7171605dec820329e0512073e9de4c96a8d7871
 buttonEqual = Button(root, text="=", padx=91, pady=20,command=button_equal)
 buttonClear = Button(root, text="clear", padx=79, pady=20,command=button_clear)
 
