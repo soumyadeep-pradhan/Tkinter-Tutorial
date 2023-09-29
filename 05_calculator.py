@@ -66,7 +66,7 @@ def button_divide():
 	f_num = int(first_number)
 	e.delete(0, END)
 
-=======
+
 def button_add():
     first_number = e.get()
     global f_num 
